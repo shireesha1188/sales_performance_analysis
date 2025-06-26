@@ -18,7 +18,7 @@ SELECT *
 FROM top_products
 WHERE rank <= 5;
 
---total yearly analysis of sales trends
+--3.total yearly analysis of sales trends
 SELECT 
     FORMAT(order_date, 'MMM') AS month,
     SUM(sale_price) AS total_sales, 
