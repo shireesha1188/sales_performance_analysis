@@ -43,7 +43,7 @@ GROUP BY state,sub_category
 SELECT * FROM CTE
 WHERE rank=1
 
---5.profit percent of each state in 2022 & 2023
+--6.profit percent of each state in 2022 & 2023
 SELECT 
     state,
     ROUND(SUM(CASE WHEN YEAR(order_date) = 2022 THEN profit END) / NULLIF(SUM(CASE WHEN YEAR(order_date) = 2022 THEN total_cost END), 0) * 100, 2) AS profit_percent_2022,
@@ -53,7 +53,7 @@ WHERE YEAR(order_date) IN (2022, 2023)
 GROUP BY state
 ORDER BY state;
 
---6.Which state generated the highest sales revenue for each sub-category
+--7.Which state generated the highest sales revenue for each sub-category
 
 WITH subcategory_state_sales AS (
     SELECT 
