@@ -25,6 +25,7 @@ This project demonstrates a complete data analytics workflow — from raw data e
   - Unifying inconsistent text values (e.g., `ship_mode`, `state`)
   - Generated new columns like `total_cost`, `profit_percent`,`sale_price`
   - Exported clean dataset to CSV and imported it into SQL Server
+  👉 Refer to [`orders.ipynb`](./orders.ipynb)
 
 ### 🔹 Step 2: SQL Analysis (SQL Server)
 
@@ -48,8 +49,10 @@ Performed comprehensive analysis using SQL queries, including:
 #### ✅ Operational Metrics
 - Total quantity sold by ship mode and region
 - High-level trends using advanced SQL features (CTEs, window functions, pivot)
-
-> 👉 Refer to (orders_1.sql) and (orders_2.sql]) for complete query logic.
+  
+👉 Refer to:
+- [`orders_1.sql`](./orders_1.sql) — Product, Category & Trend Analysis  
+- [`orders_2.sql`](./orders_2.sql) — Regional, State-wise & Operational Metrics  
 
 ---
 
@@ -64,7 +67,8 @@ Built an interactive Power BI dashboard to visualize insights:
 - **State-wise Sales Heatmap**
 
 > 📊 Power BI visuals allow dynamic filtering by year, region, month or category.
-
+👉 [sales_overview](./sales_overview.pbix.png) | Screenshot of exported report of final dashboard |
+👉 [sales_summary](./sales_summary.pbix.png) | Screenshot of exported report of final dashboard |
 ---
 
 ## 🔍 Key Insights
@@ -79,14 +83,15 @@ Built an interactive Power BI dashboard to visualize insights:
 
 ## 📁 Files in This Repository
 
-| File Name        | Description |
-|------------------|-------------|
-| `orders.ipynb`   | Jupyter Notebook for initial data cleaning using Python |
-| `orders_1.sql`   | SQL queries for product, category, and monthly trend analysis |
-| `orders_2.sql`   | SQL queries for regional, state-wise, and operational analysis |
-| `sales_overview.pbix.png`| Screenshot of exported report of final dashboard |
-| `sales_summary.pbix.png`| Screenshot of exported report of final dashboard |
-| `README.md`      | sales_performance_analysis overview |
+
+| File Name                            | Description                                                      
+|-------------------------------------|-------------------------------------------------------------------|
+| [`orders.ipynb`](./orders.ipynb)    | Jupyter Notebook for data cleaning and transformation             |
+| [`orders_1.sql`](./orders_1.sql)    | SQL queries for product, category, and monthly trend analysis     |
+| [`orders_2.sql`](./orders_2.sql)    | SQL queries for regional, state-wise, and operational analysis    |
+| ![sales_overview](./sales_overview.pbix.png) | Screenshot of the Sales Overview dashboard               |
+| ![sales_summary](./sales_summary.pbix.png)   | Screenshot of the Sales Summary dashboard                |
+| [`README.md`](./README.md)          | Project overview and documentation    
 
 ---
 
