@@ -49,7 +49,7 @@ Performed comprehensive analysis using SQL queries, including:
 - Total quantity sold by ship mode and region
 - High-level trends using advanced SQL features (CTEs, window functions, pivot)
 
-> 👉 Refer to [orders_1.sql] and [orders_2.sql] for complete query logic.
+> 👉 Refer to (orders_1.sql) and (orders_2.sql]) for complete query logic.
 
 ---
 
@@ -84,8 +84,8 @@ Built an interactive Power BI dashboard to visualize insights:
 | `orders.ipynb`   | Jupyter Notebook for initial data cleaning using Python |
 | `orders_1.sql`   | SQL queries for product, category, and monthly trend analysis |
 | `orders_2.sql`   | SQL queries for regional, state-wise, and operational analysis |
-| `sales_overview.png`| Screenshot of exported report of final dashboard |
-| `sales_summary.png`| Screenshot of exported report of final dashboard |
+| `sales_overview.pbix.png`| Screenshot of exported report of final dashboard |
+| `sales_summary.pbix.png`| Screenshot of exported report of final dashboard |
 | `README.md`      | sales_performance_analysis overview |
 
 ---
@@ -94,9 +94,4 @@ Built an interactive Power BI dashboard to visualize insights:
 
 This project showcases end-to-end SQL-based analysis using real-world business metrics and industry-relevant tools . It demonstrates advanced querying skills, performance benchmarking, and valuable business intelligence insights. Visualizations in Power BI can further enhance this analysis with interactive dashboards.
 
--
-
-**shireesha majji**  
-_Data Analyst | SQL | Python | Power BI_  
-[LinkedIn](#) | [GitHub](#) | [Portfolio](#)
 
