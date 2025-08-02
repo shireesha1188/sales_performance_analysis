@@ -70,6 +70,10 @@ Built an interactive Power BI dashboard to visualize insights:
 👉 [sales_overview](./sales_overview.pbix.png) | Screenshot of exported report of final dashboard |
 👉 [sales_summary](./sales_summary.pbix.png) | Screenshot of exported report of final dashboard |
 ---
+## 🔗 View Power BI Dashboard
+
+[Click here to view the interactive Power BI report]
+(https://app.powerbi.com/view?r=eyJrIjoiMzFiYWZjOTctNGRjZS00YWUzLWJkOTgtNWEyNDc0NjIxNzAzIiwidCI6ImE2MGJiMDAwLTgyODEtNGE5Zi04NmFmLTA0Yjc3OTg1MGQxNiJ9)
 
 ## 🔍 Key Insights
 
